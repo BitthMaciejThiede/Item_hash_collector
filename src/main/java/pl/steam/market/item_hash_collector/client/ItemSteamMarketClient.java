@@ -9,7 +9,7 @@ import pl.steam.market.item_hash_collector.client.model.ItemDetailsSteamMarket;
 
 
 @Component
-public class ItemListClient {
+public class ItemSteamMarketClient {
 
     private static final String LIST_OF_ITEMS_URL = "";
     private static final String ITEM_DETAILS_URL = "";
@@ -17,7 +17,7 @@ public class ItemListClient {
     private final RestTemplate restTemplate;
 
     @Autowired
-    public ItemListClient(RestTemplate restTemplate) {
+    public ItemSteamMarketClient(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 

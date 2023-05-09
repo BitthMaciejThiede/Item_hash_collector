@@ -12,7 +12,7 @@ public class ItemListClient {
     private static final String LIST_OF_ITEMS_URL = "";
     private static final String ITEM_DETAILS_URL = "";
 
-    public ItemListSteamMarket listSteamMarketItems() {
+    public ItemListSteamMarket listSteamMarketItems(int numberOfPage) {
 
 
 

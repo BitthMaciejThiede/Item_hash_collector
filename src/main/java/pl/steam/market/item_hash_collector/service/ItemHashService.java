@@ -8,6 +8,10 @@ import org.springframework.stereotype.Service;
 public class ItemHashService {
 
     public void runCollection() {
+        boolean isActive = true;
 
+        while(isActive){
+
+        }
     }
 }

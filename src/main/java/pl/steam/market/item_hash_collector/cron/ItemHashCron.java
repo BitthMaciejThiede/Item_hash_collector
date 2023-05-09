@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 import pl.steam.market.item_hash_collector.service.ItemHashService;
 
 //TODO Add more descriptive name
-
 @Component
 @EnableScheduling
 public class ItemHashCron {
